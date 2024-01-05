@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="myapp.js" defer></script>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <h1 id="title"> rock paper scissors</h1>
+
+    <h2 class="direction"> choose your character </h2>
+    <h3 class="direction">first to get to 5 wins!</h3>
+
+    <div id = 'icons'>
+        <button id="rockPlayer" class = "buttonIcon"> <img src="rock.png" width = "100" height = "100"> </button>
+        <button id="paperPlayer" class = "buttonIcon"> <img src="paper.png" width = "100" height = "100" id="paperPlayer"> </button>
+        <button id="scissorPlayer" class = "buttonIcon"> <img src="scissor.png" width = "100" height = "100"> </button>
+    </div>
+
+   <div>
+        <div id="playerSelection" class = "selections">
+            <h3 class="scoreTitle"> player score </h3>
+            <p id="playerScore" class="scoreTitle"> 0 </p>
+            <div id="playerimage"></div>
+        </div>
+    
+        <div id="computerSelection" class="selections">
+            <h3 class="scoreTitle"> computer score </h3>
+            <p id="computerScore" class="scoreTitle"> 0 </p>
+            <div id="computerimage"></div>
+        </div>
+   </div>
+    
+
+
+</body>
